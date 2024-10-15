@@ -70,6 +70,8 @@ img{
         font-size: 150px; /* Reduz o tamanho da fonte em telas menores */
         margin-left: 10%; /* Ajusta o alinhamento horizontal */
     }
+        img {width: 250px; /* Reduz o tamanho da imagem em telas menores */
+    }
 }
 
 @media (max-width: 480px) {
@@ -77,6 +79,9 @@ img{
         font-size: 100px; /* Reduz ainda mais o tamanho da fonte para telas muito pequenas */
         margin-left: 30%; /* Ajusta o alinhamento horizontal para telas muito pequenas */
         height: auto; /* Ajusta a altura para se adequar melhor a dispositivos móveis */
+    }
+    img {
+        width: 200px; /* Reduz o tamanho da imagem em telas muito pequenas */
     }
 }
  
