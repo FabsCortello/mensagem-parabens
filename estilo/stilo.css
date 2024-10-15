@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Nabla&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+    color: white;
+    font-family: "Handjet", sans-serif;
+    font-size: 200px;
+    margin-left: 40%;
+    border: none;
+    cursor: pointer;
+}
+.home {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    font-family: "Handjet", sans-serif;
+    width: 80%;
+    margin: 2% auto;
+    padding: 20px;
+    background-color: rgb(43, 42, 42);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #ff5722;
+    text-align: center;
+    font-size: 40px;
+}
+.convite{
+    font-family: "Nabla", system-ui;
+    font-size: 60px;
+}
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+}
+img{
+    margin-left: 33%;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.rodape{
+    margin: 2% auto;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 10px;
+}
+
+@media (max-width: 768px) {
+    .botao {
+        font-size: 150px; /* Reduz o tamanho da fonte em telas menores */
+        margin-left: 10%; /* Ajusta o alinhamento horizontal */
+    }
+}
+
+@media (max-width: 480px) {
+    .botao {
+        font-size: 100px; /* Reduz ainda mais o tamanho da fonte para telas muito pequenas */
+        margin-left: 30%; /* Ajusta o alinhamento horizontal para telas muito pequenas */
+        height: auto; /* Ajusta a altura para se adequar melhor a dispositivos móveis */
+    }
+}
+ 
