@@ -82,6 +82,7 @@ img{
     }
     img {
         width: 200px; /* Reduz o tamanho da imagem em telas muito pequenas */
+        margin-left: 20%;
     }
 }
  
